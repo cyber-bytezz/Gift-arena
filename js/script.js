@@ -584,7 +584,7 @@
 
 								$.ajax({
 									method: "POST",
-									url: "file/php",
+									url: "bat/reCaptcha.php",
 									data: {'g-recaptcha-response': captchaToken},
 									async: false
 								})
